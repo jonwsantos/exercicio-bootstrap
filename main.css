@@ -1,0 +1,22 @@
+.img-header {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+body {
+    background-color: rgb(249, 225, 198);
+}
+
+header {
+    background-color: rgb(87, 61, 31);
+}
+
+.navbar {
+    color: #fff;
+}
+
+footer {
+    margin-top: 15px;
+    color: #fff;
+    background-color: rgb(87, 61, 31);
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio_Bootstrap</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="navbar">
+            <h1>History Bland</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hts">Histórias</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2500" class="carousel-item active">
+                    <img class="img-header" src="./img_projeto/historia.jpg" />
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="img-header" src="./img_projeto/Metodologia-do-Ensino-da-Historia-e-da-Geografia-pos-graduacao-ead-famart.jpg" />
+                </div>
+                <div data-bs-interval="2500" class="carousel-item">
+                    <img class="img-header" src="./img_projeto/historia (1).jpg" />
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h3 id="hts">Histórias</h3>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+            <div class="card text-bg-dark">
+                <div class="card-header">
+                    De volta ao passado
+                </div>
+                <img src="https://thumbs.dreamstime.com/b/pulso-de-disparo-velho-8758400.jpg" alt="img teste">
+                <div class="card-body">
+                    <h4 class="card-title">Relembrando</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolor similique quod neque nesciunt voluptas ullam unde. Veritatis deleniti blanditiis sunt labore enim! Ipsam, facilis at? Veritatis quam id reprehenderit?
+                    </p>
+                    <a href="#" class="btn btn-primary">Conteúdo completo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card text-bg-dark">
+                <div class="card-header">
+                    Vivendo o presente
+                </div>
+                <img src="https://thumbs.dreamstime.com/b/autumn-time-change-60856662.jpg" alt="img teste">
+                <div class="card-body">
+                    <h4 class="card-title">Aprendendo</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolor similique quod neque nesciunt voluptas ullam unde. Veritatis deleniti blanditiis sunt labore enim! Ipsam, facilis at? Veritatis quam id reprehenderit?
+                    </p>
+                    <a href="#" class="btn btn-primary">Conteúdo completo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card text-bg-dark">
+                <div class="card-header">
+                    Caminhando ao futuro
+                </div>
+                <img src="http://3.bp.blogspot.com/-w2WfQVHeFEE/Upt1gqPN6VI/AAAAAAAAlpI/LlkaNHwMKBM/s1600/image.jpg+S.jpg" alt="img teste">
+                <div class="card-body">
+                    <h4 class="card-title">Desenvolvendo</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolor similique quod neque nesciunt voluptas ullam unde. Veritatis deleniti blanditiis sunt labore enim! Ipsam, facilis at? Veritatis quam id reprehenderit?
+                    </p>
+                    <a href="#" class="btn btn-primary">Conteúdo completo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer>
+            <p>&copy; Todos os direitos reservados ao projeto Bootstrap - 2023. &copysr;</p>
+        </footer>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
